@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Personal Web Portfolio</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h1>Welcome to My Portfolio</h1>
+			<nav>
+				<ul>
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<!-- Profile Image Section -->
+			<section id="profile">
+				<img
+					src="/images/kelly-profile.jpeg"
+					alt="Kelly Huerta"
+					class="profile-image"
+				/>
+			</section>
+
+			<!-- About Me Section -->
+			<section id="about">
+				<h2>About Me</h2>
+				<p>
+					Hi! I'm Kelly Huerta, a senior at VCU majoring in
+					Human-Computer Interaction & Software Development. This
+					portfolio showcases my journey, skills, and projects. I love
+					creating interactive experiences and solving challenging
+					problems with code.
+				</p>
+			</section>
+
+			<!-- Projects Section -->
+			<section id="projects">
+				<h2>Projects</h2>
+				<div class="projects-container">
+					<div class="project">
+						<img src="/images/bank-app.png" alt="Bank App" />
+						<h3>Bank App 🏦</h3>
+						<p>
+							A functional banking app with features like
+							registration, login, and transaction management.
+						</p>
+						<a
+							href="https://codepen.io/k3lx/pen/aberMoN"
+							target="_blank"
+							>View Project</a
+						>
+					</div>
+
+					<div class="project">
+						<img
+							src="/images/haunted-forest-battle.png"
+							alt="Haunted Forest Battle"
+						/>
+						<h3>Haunted Forest Battle 👻</h3>
+						<p>
+							A thrilling game set in a haunted forest where you
+							battle ghosts and monsters!
+						</p>
+						<a
+							href="https://codepen.io/k3lx/pen/ExqOmOe"
+							target="_blank"
+							>View Project</a
+						>
+					</div>
+
+					<div class="project">
+						<img
+							src="/images/collision-fireworks-game.png"
+							alt="Collision Fireworks Game"
+						/>
+						<h3>Collision Fireworks Game 🎆</h3>
+						<p>
+							A colorful game where fireworks explode upon
+							collision. Perfect for visual effects lovers.
+						</p>
+						<a
+							href="https://codepen.io/k3lx/pen/LYwjvye"
+							target="_blank"
+							>View Project</a
+						>
+					</div>
+
+					<div class="project">
+						<img
+							src="/images/confetti-galaxy.png"
+							alt="Confetti Galaxy"
+						/>
+						<h3>Confetti Galaxy ⭐️</h3>
+						<p>
+							Create a magical galaxy filled with confetti.
+							Perfect for celebrations!
+						</p>
+						<a
+							href="https://codepen.io/k3lx/pen/dyxmmJw"
+							target="_blank"
+							>View Project</a
+						>
+					</div>
+
+					<div class="project">
+						<img
+							src="/images/emoji-catch-game.png"
+							alt="Emoji Catch Game"
+						/>
+						<h3>Emoji Catch Game 🦄 🐵 🦊</h3>
+						<p>
+							Catch falling emojis to score points in this fun and
+							addictive game!
+						</p>
+						<a
+							href="https://codepen.io/k3lx/pen/dyxzLWm"
+							target="_blank"
+							>View Project</a
+						>
+					</div>
+
+					<div class="project">
+						<img
+							src="/images/speed-typing-game.png"
+							alt="Speed Typing Game"
+						/>
+						<h3>Speed Typing Game ⌨️</h3>
+						<p>
+							A fun game to test and improve your typing speed.
+							Showcase your fast fingers!
+						</p>
+						<a
+							href="https://codepen.io/k3lx/pen/YzmGjjX"
+							target="_blank"
+							>View Project</a
+						>
+					</div>
+
+					<div class="project">
+						<img
+							src="/images/my-terrarium.png"
+							alt="My Terrarium"
+						/>
+						<h3>My Terrarium 🌿</h3>
+						<p>
+							A drag-and-drop digital terrarium for plant lovers.
+							Design your perfect setup!
+						</p>
+						<a
+							href="https://codepen.io/k3lx/pen/ExqaxxW"
+							target="_blank"
+							>View Project</a
+						>
+					</div>
+				</div>
+			</section>
+
+			<!-- Contact Section -->
+			<section id="contact">
+				<h2>Contact Me</h2>
+				<form
+					id="contact-form"
+					action="https://formspree.io/f/mzzbqgov"
+					method="POST"
+					target="_blank"
+					aria-label="Contact Form"
+				>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" required />
+
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required />
+
+					<label for="message">Message:</label>
+					<textarea
+						id="message"
+						name="message"
+						rows="5"
+						required
+					></textarea>
+
+					<button type="submit">Send</button>
+				</form>
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; 2024 Kelly Huerta. All rights reserved.</p>
+		</footer>
+	</body>
+</html>
